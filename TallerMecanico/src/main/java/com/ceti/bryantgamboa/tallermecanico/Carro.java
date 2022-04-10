@@ -8,6 +8,24 @@ package com.ceti.bryantgamboa.tallermecanico;
  *
  * @author Rumyn
  */
-public class Carro {
+public class Carro extends Vehiculo {
     
+    public Carro(){
+        inicializarValores();
+    }
+    
+    private void inicializarValores(){
+        costoCambioBujia = 200;
+        costoCambioCarburador = 500;
+        costoCambioLlanta = 2000;
+        costoLimpieza = 350;
+        tipoVehiculo = "Carro";
+        tiempoPromedioReparacion = 2;
+    }
+    
+    public void asignarPropietario(String nombrePropietario){
+        this.nombrePropietario = nombrePropietario;
+    }
+    
+
 }

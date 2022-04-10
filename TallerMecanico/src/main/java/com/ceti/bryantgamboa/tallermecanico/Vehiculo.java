@@ -10,4 +10,18 @@ package com.ceti.bryantgamboa.tallermecanico;
  */
 public class Vehiculo {
     
+    public Vehiculo(){
+    
+    }
+    
+    public String nombrePropietario = "Sin nombre";
+    public String tipoVehiculo = "Sin tipo";
+    public float costoCambioBujia = 0;
+    public float costoCambioLlanta = 0;
+    public float costoLimpieza = 0;
+    public float costoCambioCarburador = 0;
+    public int tiempoPromedioReparacion = 0;
+    
+    
+    
 }
