@@ -16,15 +16,17 @@ public class Carro extends Vehiculo {
     
     private void inicializarValores(){
         costoCambioBujia = 200;
-        costoCambioCarburador = 500;
-        costoCambioLlanta = 2000;
-        costoLimpieza = 350;
+        costoCambioCarburador = 3500;
+        costoCambioLlanta = 200;
+        costoLimpiezaCarburador = 350;
+        costoAfinacion = 300;
         tipoVehiculo = "Carro";
         tiempoPromedioReparacion = 2;
     }
     
     public void asignarPropietario(String nombrePropietario){
         this.nombrePropietario = nombrePropietario;
+        
     }
     
 

@@ -14,10 +14,18 @@ public class Utilidades {
     
     
     static void mensaje(String texto){
-        JOptionPane.showMessageDialog(null, texto, "Atencion", 1);
+        JOptionPane.showMessageDialog(null, texto, "", 1);
+    }
+    
+    static void mensajeFac(String texto){
+        JOptionPane.showMessageDialog(null, texto, "FACTURA", 1);
     }
     
     static String leer(String pregunta){
         return JOptionPane.showInputDialog(pregunta);
     }
+    /*static void numReparacion(int texto){
+        return 
+    }*/
+    
 }

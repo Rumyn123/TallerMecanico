@@ -8,6 +8,20 @@ package com.ceti.bryantgamboa.tallermecanico;
  *
  * @author DELL
  */
-public class Camioneta {
+public class Camioneta extends Vehiculo {
+     
+    public Camioneta(){
+        inicializarValores();
+    }
+    
+    private void inicializarValores(){
+        costoCambioBujia = 320;
+        costoCambioCarburador = 4000;
+        costoCambioLlanta = 300;
+        costoLimpiezaCarburador = 500;
+        costoAfinacion = 300;
+        tipoVehiculo = "Camioneta";
+        tiempoPromedioReparacion = 3;
+    }
     
 }
